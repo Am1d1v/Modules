@@ -3,8 +3,7 @@
 //const a = 1;
 
 
-
-
+/*  IIFE Example
 
 (function(){
 
@@ -13,3 +12,12 @@
 
 })();
 
+*/
+
+//===========================================================
+
+
+const {add, sub} = require('./calc.js');
+
+    console.log(add(1,3));
+    console.log(sub(1,3));

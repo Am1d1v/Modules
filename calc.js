@@ -1,7 +1,7 @@
 
 
 
-//const a = 1;
+/*  IIFE Example
 
 const app = {};
 
@@ -22,5 +22,17 @@ const app = {};
     }
 })()
 
+*/
+
+//===========================================================
 
 
+    function add(f,s){
+        return f + s;
+    }
+
+    function sub(f,s){
+        return f - s;
+    }
+
+module.exports = {add, sub};    
