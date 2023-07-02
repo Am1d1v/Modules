@@ -1,12 +1,26 @@
 
 
 
-const a = 1;
+//const a = 1;
 
-function add(f, s){
-    return f + s;
-}
+const app = {};
 
-function sub(f, s){
-    return f - s;
-}
+
+(function(){
+
+    function add(f, s){
+        return f + s;
+    }
+    
+    function sub(f, s){
+        return f - s;
+    }
+
+    app.calc = {
+        add,
+        sub
+    }
+})()
+
+
+

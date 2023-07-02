@@ -1,8 +1,15 @@
 
 
-
-
 //const a = 1;
 
-console.log(add(1,3));
-console.log(sub(1,3));
+
+
+
+
+(function(){
+
+    console.log(app.calc.add(1,3));
+    console.log(app.calc.sub(1,3));
+
+})();
+
